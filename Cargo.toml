@@ -1,0 +1,9 @@
+[package]
+name = "newrelic-fairing"
+version = "0.1.0"
+authors = ["Ben Sully <ben.sully@yougov.com>"]
+edition = "2018"
+
+[dependencies]
+newrelic = { git = "https://github.com/sd2k/newrelic" }
+rocket = "0.4"
